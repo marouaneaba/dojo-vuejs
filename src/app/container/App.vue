@@ -1,15 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <nav-bar></nav-bar>
+  <composition-item msg="Welcome to Your Vue.js App"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import CompositionItem from '../compositionitem/container/Composition-item.vue'
+import NavBar from "@/app/shared/components/navbar/NavBar";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    CompositionItem,
+    NavBar
   }
 }
 </script>
