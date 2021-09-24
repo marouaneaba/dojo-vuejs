@@ -1,18 +1,14 @@
 <template>
-  <nav-bar></nav-bar>
-  <composition-item msg="Welcome to Your Vue.js App"/>
+  <div class="container">
+    <router-view/>
+  </div>
 </template>
 
 <script>
-import CompositionItem from '../compositionitem/container/Composition-item.vue'
-import NavBar from "@/app/shared/components/navbar/NavBar";
+
 
 export default {
-  name: 'App',
-  components: {
-    CompositionItem,
-    NavBar
-  }
+  name: 'App'
 }
 </script>
 
