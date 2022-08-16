@@ -12,6 +12,15 @@
 * [Git] - TrunkBase, Livraison continue, pas du proessus bloque la livraison, aucun besoin de créer plusieurs branche
 * [Sonar] - https://sonarcloud.io/dashboard?id=marouaneaba_poker-resto-front
 
+
+## Start projet:
+
+Start the project: login-mock.
+
+Start the project: decathlon-bootcamp
+
+rentre le profile soit PROFILE ou ADMIN.
+
 ## Development server
 
 Run `npm run serve` for a dev server. Navigate to `http://localhost:8080/login`. The app will automatically reload if you change any of the source files.
